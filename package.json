@@ -1,0 +1,20 @@
+{
+  "name": "mqqt-broker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.51.1",
+    "aedes-cli": "^0.8.0",
+    "aedes-persistence": "^9.1.2",
+    "nodemon": "^3.1.0",
+    "redis": "^4.6.13"
+  }
+}
